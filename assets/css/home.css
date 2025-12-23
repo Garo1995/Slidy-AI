@@ -64,7 +64,7 @@ header{
 .header-main{
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(70, 69, 81, 0.08);
-    border-radius: 100px;
+    border-radius: 16px;
     padding: 20px;
 }
 
@@ -134,6 +134,7 @@ header{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 }
 .stand-out-title img{
     width: 84px;
@@ -166,7 +167,6 @@ header{
     font-size: 16px;
     line-height: 20px;
     transition: 0.3s;
-
 }
 .btn:hover{
     opacity: 0.7;
@@ -335,7 +335,7 @@ header{
 
 .intel-pic{
     margin-top: 60px;
-
+    justify-content: center;
 }
 
 
@@ -545,7 +545,9 @@ header{
         background: rgba(18, 82, 211, 1);
 
     }
-
+    header {
+        position: fixed;
+    }
 }
 
 @media (max-width: 767px){
